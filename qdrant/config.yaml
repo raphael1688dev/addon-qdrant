@@ -1,7 +1,8 @@
-name: "Qdrant"
-description: "Qdrant is a vector similarity search engine and vector database"
-version: "1.16"
-slug: "qdrant"
+---
+name: Qdrant
+description: Qdrant is a vector similarity search engine and vector database
+version: 1.16
+slug: qdrant
 arch:
   - aarch64
   - amd64
@@ -32,4 +33,4 @@ schema:
     - name: match(^[A-Z0-9_]+$)
       value: str
 init: false
-startup: service 
+startup: service
